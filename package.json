@@ -1,0 +1,15 @@
+{
+  "name": "pi-data-search",
+  "version": "1.0.0",
+  "description": "Standalone reusable Data Search Pi skill and credential-safe evidence helper",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "darkrei08",
+  "files": ["README.md", "docs", "skills", "tests", "package.json"],
+  "bin": {
+    "pi-data-search": "./skills/reusable-data-search/bin/search.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/reusable-data-search.test.mjs"
+  }
+}
